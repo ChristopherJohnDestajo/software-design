@@ -1,24 +1,24 @@
-﻿namespace lab1
+﻿namespace Task_5_OPP_Descending
 {
-	partial class Form1
-	{
-		/// <summary>
-		///  Required designer variable.
-		/// </summary>
-		private System.ComponentModel.IContainer components = null;
+    partial class Form1
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
 
-		/// <summary>
-		///  Clean up any resources being used.
-		/// </summary>
-		/// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-		protected override void Dispose(bool disposing)
-		{
-			if (disposing && (components != null))
-			{
-				components.Dispose();
-			}
-			base.Dispose(disposing);
-		}
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
 
         #region Windows Form Designer generated code
 
@@ -34,9 +34,9 @@
             // 
             // btn_Sort
             // 
-            btn_Sort.Location = new Point(40, 51);
+            btn_Sort.Location = new Point(41, 65);
             btn_Sort.Name = "btn_Sort";
-            btn_Sort.Size = new Size(192, 55);
+            btn_Sort.Size = new Size(220, 61);
             btn_Sort.TabIndex = 0;
             btn_Sort.Text = "Sort";
             btn_Sort.UseVisualStyleBackColor = true;
@@ -45,9 +45,9 @@
             // listBoxResult
             // 
             listBoxResult.FormattingEnabled = true;
-            listBoxResult.Location = new Point(238, 51);
+            listBoxResult.Location = new Point(279, 65);
             listBoxResult.Name = "listBoxResult";
-            listBoxResult.Size = new Size(524, 324);
+            listBoxResult.Size = new Size(509, 324);
             listBoxResult.TabIndex = 1;
             // 
             // Form1
@@ -59,6 +59,7 @@
             Controls.Add(btn_Sort);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             ResumeLayout(false);
         }
 
