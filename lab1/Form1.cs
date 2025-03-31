@@ -7,6 +7,6 @@ namespace lab1
 			InitializeComponent();
 		}
 
-		//hello world
+		
 	}
 }
